@@ -19,6 +19,7 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+	compileOnly("org.springframework.boot:spring-boot-devtools")
 	implementation 'org.apache.commons:commons-csv:1.4'
 	testImplementation("org.jmockit:jmockit:1.49")
 }
